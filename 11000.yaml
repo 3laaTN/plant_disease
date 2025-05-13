@@ -1,0 +1,284 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# COCO 2017 dataset http://cocodataset.org by Microsoft
+# Example usage: yolo train data=coco.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── coco  ← downloads here (20.1 GB)
+
+
+# # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+# path: ../datasets/coco  # dataset root dir
+# train: train2017.txt  # train images (relative to 'path') 118287 images
+# val: val2017.txt  # val images (relative to 'path') 5000 images
+# test: test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# train: ./700/images/val  # train images (relative to 'path') 118287 images
+# val: ./700/images/val  # val images (relative to 'path') 5000 images
+# test: ./700/images/val  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/2
+
+  
+
+# train: ./BCCD/test/images  # train images (relative to 'path') 118287 images
+# val: ./BCCD/test/images  # val images (relative to 'path') 5000 images
+# test: ./BCCD/test/images  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+
+# train: ./quexian/images  # train images (relative to 'path') 118287 images
+# val: ./quexian/images  # val images (relative to 'path') 5000 images
+# test: ./quexian/images  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+#滑坡
+# train: ./5770/val/images  # train images (relative to 'path') 118287 images
+# val: ./5770/val/images  # val images (relative to 'path') 5000 images
+# test: ./5770/val/images  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/2
+
+# 8000
+# train: ./8000/images/train  # train images (relative to 'path') 118287 images
+# val: ./8000/images/val  # val images (relative to 'path') 5000 images
+# test: ./8000/images/val  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/2
+
+# train: ./tt100k/images/train  # train images (relative to 'path') 118287 images
+# val: ./tt100k/images/val  # val images (relative to 'path') 5000 images
+# test: ./tt100k/images/test   # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/2
+
+# train: ./16000/test/images  # train images (relative to 'path') 118287 images
+# val: ./16000/val/images  # val images (relative to 'path') 5000 images
+# test: ./16000/test/images  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/2
+
+# train: ./1500/images/train  # train images (relative to 'path') 118287 images
+# val: ./1500/images/val  # val images (relative to 'path') 5000 images
+# test: ./1500/images/test   # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/2
+
+#第四个
+# train: ./crack/train/images  # train images (relative to 'path') 118287 images
+# val: ./crack/valid/images
+# # val: ./crack/test/images # val images (relative to 'path') 5000 images
+# test: ./crack/test/images  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+
+#第四个原来
+# train: ./crack2/images/train  # train images (relative to 'path') 118287 images
+# val: ./crack2/images/val  # val images (relative to 'path') 5000 images
+# test: ./crack2/images/test   # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/2
+
+
+#人车自
+# train: ./rzc1/images/val  # train images (relative to 'path') 118287 images
+# val: ./rzc1/images/val  # val images (relative to 'path') 5000 images
+# test: ./rzc1/images/val   # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/2
+
+# train: ./00/images  # train images (relative to 'path') 118287 images
+# val: ./00/images  # val images (relative to 'path') 5000 images
+# test: ./00/images   # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/2
+
+# train: ./pcb/images/val  # train images (relative to 'path') 118287 images
+# val: ./pcb/images/val  # val images (relative to 'path') 5000 images
+# test: ./pcb/images/test   # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/2
+
+# 8K,
+# train: ./crack8/images/train
+# val: ./crack8/images/val
+# test: ./crack8/images/val
+
+
+# train: ./1500/images/train  # train images (relative to 'path') 118287 images
+# val: ./1500/images/val  # val images (relative to 'path') 5000 images
+# test: ./1500/images/test   # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/
+
+# train: ./yinsi/images/train  # train images (relative to 'path') 118287 images
+# val: ./yinsi/images/val  # val images (relative to 'path') 5000 images
+# test: ./yinsi/images/test   # 20288
+
+# train: ./cracktest/images  # train images (relative to 'path') 118287 images
+# val: ./cracktest/images
+# # val: ./crack/test/images # val images (relative to 'path') 5000 images
+# test: ./cracktest/images  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+#
+#验证
+# train: ./crackyanzheng/images/train
+# val: ./crackyanzheng/images/val
+# test: ./crackyanzheng/images/test
+
+# train: ./230/images/test  # train images (relative to 'path') 118287 images
+# val: ./230/images/test  # val images (relative to 'path') 5000 images
+# test: ./230/images/test  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+
+# #17000
+# train: ./17000/images/test  # train images (relative to 'path') 118287 images
+# val: ./17000/images/test  # val images (relative to 'path') 5000 images
+# test: ./17000/images/test   # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/2
+
+# 30000
+# train: ./30000/images/train  # train images (relative to 'path') 118287 images
+# val: ./30000/images/val  # val images (relative to 'path') 5000 images
+# test: ./30000/images/test   # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/2
+
+
+
+#1600
+# train: ./1600/train/images  # train images (relative to 'path') 118287 images
+# val: ./1600/val/images  # val images (relative to 'path') 5000 images
+# test: ./1600/val/images  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+
+
+# #16002
+# train: ./16002/val/images  # train images (relative to 'path') 118287 images
+# val: ./16002/val/images  # val images (relative to 'path') 5000 images
+# test: ./16002/val/images  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/2
+
+#1600y
+# train: ./1600y/val/images  # train images (relative to 'path') 118287 images
+# val: ./1600y/val/images  # val images (relative to 'path') 5000 images
+# test: ./1600y/val/images  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/2
+
+
+#17000y1
+# train: ./17000y1/val/images  # train images (relative to 'path') 118287 images
+# val: ./17000y1/val/images  # val images (relative to 'path') 5000 images
+# test: ./17000y1/val/images  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/2
+
+
+
+#17000y2
+# train: ./17000y2/train/images  # train images (relative to 'path') 118287 images
+# val: ./17000y2/val/images  # val images (relative to 'path') 5000 images
+# test: ./17000y2/val/images  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/2
+
+#4000
+# train: ./4000/images/train  # train images (relative to 'path') 118287 images
+# val: ./4000/images/val  # val images (relative to 'path') 5000 images
+# test: ./4000/images/test   # 20288
+
+
+
+
+# 600
+# train: ./600/images/100  # train images (relative to 'path') 118287 images
+# val: ./600/images/100  # val images (relative to 'path') 5000 images
+# test: ./600/images/100   # 20288
+
+#50
+# train: ./50/images/train  # train images (relative to 'path') 118287 images
+# val: ./50/images/val  # val images (relative to 'path') 5000 images
+# test: ./50/images/test   # 20288
+
+
+#50
+# train: ./bdz/images/test  # train images (relative to 'path') 118287 images
+# val: ./bdz/images/test  # val images (relative to 'path') 5000 images
+# test: ./bdz/images/test   # 202
+
+# TCrack
+# train: ./TCrack/images/train  # train images (relative to 'path') 118287 images
+# val: ./TCrack/images/val  # val images (relative to 'path') 5000 images
+# test: ./TCrack/images/train   # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/2
+
+train: ./2/images/train  # train images (relative to 'path') 118287 images
+val: ./2/images/val  # val images (relative to 'path') 5000 images
+test: ./2/images/train   # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/2
+
+# 1000
+# train: ./1000/images/train  # train images (relative to 'path') 118287 images
+# val: ./1000/images/val  # val images (relative to 'path') 5000 images
+# test: ./1000/images/test   # 20288
+
+
+#480
+# train: ./480/train/images  # train images (relative to 'path') 118287 images
+# val: ./480/val/images  # val images (relative to 'path') 5000 images
+# test: ./480/test/images  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/2
+
+# nc: 44
+
+# # 类别名称
+# names: ['一次性快餐盒', '书籍纸张', '充电宝', '剩饭剩菜', '包', '垃圾桶', '塑料器皿', '塑料玩具', '塑料衣架', '大骨头', '干电池', '快递纸袋', '插头电线', '旧衣服', '易拉罐', '枕头', '果皮果肉', '毛绒玩具', '污损塑料', '污损用纸', '洗护用品', '烟蒂', '牙签', '玻璃器皿', '砧板', '筷子', '纸盒纸箱', '花盆', '茶叶渣', '菜帮菜叶', '蛋壳', '调料瓶', '软膏', '过期药物', '酒瓶', '金属厨具', '金属器皿', '金属食品罐', '锅', '陶瓷器皿', '鞋', '食用油桶', '饮料瓶', '鱼骨']
+
+
+
+# 1000
+# train: ./2000/images/test  # train images (relative to 'path') 118287 images
+# val: ./2000/images/test  # val images (relative to 'path') 5000 images
+# test: ./2000/images/test   # 20288
+
+
+
+nc: 1   #训练的类别
+ 
+# # class names
+# names: ['Sea urchin','Scallop','sea cucumber']
+# names: ['Double hexagonal column','Flange nut','Hexagon nut','Hexagon pillar','Hexagon screw','Hexagonal steel column','Horizontal bubble',
+#            'Keybar','Plastic cushion pillar','Rectangular nut','Round head screw','Spring washer','T-shaped screw'] #零件
+# classes=  ['nest','trash','kite','ballon']
+
+# nc: 10
+# Classes
+# names: ['tea'] #230
+
+
+names: ['TCrack'] 
+
+# names: ['crazing'] 
+# names: ['nest','trash','kite','ballon']
+
+# nc: 1
+# names: ['boat'] #17000
+# nc: 6
+
+# names: ['helmet', 'person', 'badge', 'glove', 'operating_bar', 'wrong_glove'] #bdz
+
+# names: ['UAV'] #50
+
+# names: ['ship'] #17000y1
+
+# names: ['tangerines'] #4000
+
+# names: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+
+# names: ['D00', 'D10', 'D20', 'D40']
+# Classes
+# names: ['好苹果','坏苹果 ','好香蕉','坏香蕉','好黄瓜','坏黄瓜','好秋葵','坏秋葵','好土豆','坏土豆','好西红柿','坏西红柿']
+# names: ['good apple','bad apple','good bananas','bad bananas','good cucumbers','bad cucumbers','good okra','bad okra','good potato','bad potato','good tomato','bad tomato']
+# names:  ['insulator', 'defect', 'Flashover damage']
+
+# names:  ['landslide']
+# names:  ['helmets']
+# names:  ['smoke']
+# names:  ['die']
+# names: ['Platelets', 'RBC', 'WBC']
+# names: ['crazing', 'patches', 'inclusion', 'pitted_surface', 'rolled-in_scale', 'scratches']
+
+# names: ['Anthr_fruit', 'Anthr_leaf', 'Bacter_leaf', 'Umb_rot', 'Viral_fruit', 'Viral_leaf']
+# names: ['missing_hole', 'mouse_bite', 'open_circuit', 'short', 'spur', 'spurious_copper']
+# names:  ['Helmet', 'mask', 'eyes', 'reflecclottive hing']
+# names:  ['Helmet', 'mask', 'eyes', 'reflecclottive hing']
+
+# names: ['i2', 'i4', 'i5', 'il100', 'il160', 'il180', 'io', 'ip', 'p10', 'p11',
+#         'p12', 'p19', 'p23', 'p26', 'p27', 'p3', 'p5', 'p6', 'pg', 'ph4','ph4.5',
+#         'pl100', 'pl120', 'pl20', 'pl30', 'pl40', 'pl5', 'pl50', 'pl60', 'pl70',
+#         'pl80', 'pm20', 'pm30', 'pm55', 'pn', 'pne', 'po','pr40', 'w13', 'w55',
+#         'w57', 'w59']  # class names
+
+
+# names: ['Bus', 'Pickup', 'SUV', 'Sedan', 'Taxi', 'Truck', 'Van']
+
+# names: ['Transverse','Longitudinal','Block&Alligator']
+
+# names: ['crack']
+
+# names: ['person', 'car', 'bicycle']
+
+# names: ['smoke']
+# names: ['QR', 'people_face', 'license plate','traffic panel']
+
+# names: ['Anthr_fruit', 'Anthr_leaf', 'Bacter_leaf','Umb_rot','Viral_fruit', 'Viral_leaf']
+# 
+
+# Anthr_fruit, 
+# Anthr_leaf, 
+# Bacter_leaf, 
+# Umb_rot, 
+# Viral_fruit, 
+# Viral_leaf
